@@ -1,0 +1,98 @@
+body {
+    margin:0;
+    padding-top:800px;
+    text-align:center;
+}
+
+.fotoDoCara {
+    border-radius:50%;
+}
+
+#bemVindo {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+#nomeDoCara {
+    font-size: 50px;
+    font-family: Passions Conflict;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 300px;
+    font-family: monospace;
+}
+
+#bio {
+    font-family: Dancing Script; 
+    padding: 50px; 
+}
+
+.linhaDivisoria {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.organizador {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.menu {
+    list-style: none; /* Para não ter marcadores*/
+    position: fixed; /* Para que fique fixo e visível o tempo todo enquanto rola para baixo no site.*/
+    top: 10px; 
+    right: 30px; 
+    z-index: 10; /* Sobreposição de elementos html - Superior sobreposto inferior*/
+    cursor: pointer; /* Cursor parecer clicável */
+    background: white; /*Definimos a cor de fundo do nosso menu como branco*/
+    width: 100%; /*o menu ocupa a tela inteira) */
+    margin-top: 0px; /*a barra de navegação começa no topo da página sem nenhuma margem */
+    top: 0px; /*queremos manter o menu preso ao topo da tela */
+}
+
+.links {
+    float: left; /*ordenar os itens da esquerda. */
+    padding-top: 5px; /*espaçamento interno*/
+    padding-left: 33px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+    display: inline; /* manterá todos os links na mesma linha*/
+
+}
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+}
+
+#escritos a {
+    text-decoration: unerline !important;
+    color: green !important; 
+}
+
+#contato {
+    background: lightgray;
+}
+
+.contato_1 {
+    display: inline;
+}
